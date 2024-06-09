@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Classification Result</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .result-container {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .game-name {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container result-container">
+        <h1>Classification Result</h1>
+        <img src="{{ file_url }}" class="img-fluid" alt="Uploaded Image">
+        <div class="game-name">{{ game_name }}</div>
+        <br>
+        <a href="/classify_page/" class="btn btn-primary">Classify Another Image</a>
+        <a href="/" class="btn btn-secondary">Back to Homepage</a>
+    </div>
+</body>
+</html>

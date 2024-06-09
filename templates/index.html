@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Processing Homepage</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .btn-custom {
+            display: inline-block;
+            outline: 0;
+            text-align: center;
+            cursor: pointer;
+            padding: 17px 30px;
+            border: 0;
+            color: #fff;
+            font-size: 17.5px;
+            border: 2px solid transparent;
+            border-color: #000;
+            color: #000;
+            background: transparent;
+            font-weight: 800;
+            line-height: 30px;
+            transition: background,color .1s ease-in-out;
+        }
+        .btn-custom:hover {
+            background-color: #000;
+            color: #fff;
+        }
+        .decision-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+        }
+        .decision-option {
+            margin: 0 20px;
+            text-align: center;
+        }
+        .decision-heading {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5 text-center">Welcome to the Image Processing Application</h1>
+        <div class="decision-container">
+            <div class="decision-option">
+                <h2 class="decision-heading">Model A</h2>
+                <a class="btn-custom" href="/classify_page/">Upload Image for Classification</a>
+            </div>
+            <div class="decision-option">
+                <h2 class="decision-heading">Model B</h2>
+                <a class="btn-custom" href="/segment_page/">Upload Image for Segmentation</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

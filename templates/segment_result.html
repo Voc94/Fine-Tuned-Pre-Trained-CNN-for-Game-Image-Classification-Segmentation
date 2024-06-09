@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Segmentation Result</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #ddd;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Segmentation Result</h1>
+    <h2>Overlay Image</h2>
+    <img src="{{ file_url }}" alt="Overlay Image">
+    <h2>HUD Mask</h2>
+    <img src="{{ hud_mask_url }}" alt="HUD Mask">
+    <h2>Mobs Mask</h2>
+    <img src="{{ mobs_mask_url }}" alt="Mobs Mask">
+</body>
+</html>
