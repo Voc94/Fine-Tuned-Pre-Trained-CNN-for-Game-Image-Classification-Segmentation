@@ -24,11 +24,11 @@ youtube: (prea multe)
 am folosit acest pipe **suuuper** folositor:
 `yt-dlp -o - "YOUTUBE-URL" | ffmpeg -i pipe: -vf "fps=1/25" output%d.png`
 $$25 jocuri*1000 poze$$
-![[Pasted image 20240609224021.png]]
+[![[Pasted image 20240609224021.png]]](https://github.com/Voc94/SI_CNN_PROJECT-with-DJANGO/blob/main/Pasted%20image%2020240609224021.png)
 Setul de date pentru segmentare este mult mai mic,continand 115 imagini pentru modelul de mobi:
-![[Pasted image 20240609223452.png]]
+[![[Pasted image 20240609223452.png]]](https://github.com/Voc94/SI_CNN_PROJECT-with-DJANGO/blob/main/Pasted%20image%2020240609223452.png)
 iar 63 pentru modelul de hud:
-![[Pasted image 20240609223511.png]]
+[![[Pasted image 20240609223511.png]]](https://github.com/Voc94/SI_CNN_PROJECT-with-DJANGO/blob/main/Pasted%20image%2020240609223511.png)
 amandoua imparite in img si img_masks
 ### 3. Related Work
 
@@ -46,9 +46,9 @@ Am utilizat arhitectura ResNet18 pre-antrenată pe ImageNet. Modelul a fost antr
 
 - Acuratețe antrenament: 99.77%
 - Acuratețe validare: 98.83%
-![[Pasted image 20240609202712.png]]
-![[Pasted image 20240609202756.png]]
-![[Pasted image 20240609203032.png]]
+[![[Pasted image 20240609202712.png]]](https://github.com/Voc94/SI_CNN_PROJECT-with-DJANGO/blob/main/Pasted%20image%2020240609202712.png)
+[![[Pasted image 20240609202756.png]]](https://github.com/Voc94/SI_CNN_PROJECT-with-DJANGO/blob/main/Pasted%20image%2020240609202756.png)
+[![[Pasted image 20240609203032.png]]](https://github.com/Voc94/SI_CNN_PROJECT-with-DJANGO/blob/main/Pasted%20image%2020240609203032.png)
 ### Model 2:
 
 Modelul 2 utilizează două modele de segmentare separate pentru a detecta HUD (Head-Up Display) și mobi/entități din imagini de jocuri League of Legends. Ambele modele de segmentare sunt bazate pe arhitectura DeepLabV3 cu backbone ResNet-50. Datele de antrenament au fost generate folosind platforma Supervisely și instrumentul batched smart tool.
@@ -61,9 +61,9 @@ Modelul 2 utilizează două modele de segmentare separate pentru a detecta HUD (
 - **Pierdere Epocă 18**: 0.0299.
 - **Acuratețe validare**: Modelul pentru entități nu funcționează optim și necesită ajustări suplimentare.
 
-![[Pasted image 20240609221745.png]]
-![[Pasted image 20240609221905.png]]
-![[Pasted image 20240609222907.png]]
+[![[Pasted image 20240609221745.png]]](https://github.com/Voc94/SI_CNN_PROJECT-with-DJANGO/blob/main/Pasted%20image%2020240609221745.png)
+[![[Pasted image 20240609221905.png]]](https://github.com/Voc94/SI_CNN_PROJECT-with-DJANGO/blob/main/Pasted%20image%2020240609221905.png)
+[![[Pasted image 20240609222907.png]]](https://github.com/Voc94/SI_CNN_PROJECT-with-DJANGO/blob/main/Pasted%20image%2020240609222907.png)
 ### 5. Rezultate
 
 #### Acuratețe
