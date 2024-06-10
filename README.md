@@ -23,13 +23,13 @@ kaggle: https://www.kaggle.com/datasets/aditmagotra/gameplay-images
 youtube: (prea multe)
 am folosit acest pipe **suuuper** folositor:
 `yt-dlp -o - "YOUTUBE-URL" | ffmpeg -i pipe: -vf "fps=1/25" output%d.png`
-$$25 jocuri*1000 poze$$
+$$25 jocuri*1000 poze$$<br/>
 ![Pasted image 20240609224021.png](https://github.com/Voc94/SI_CNN_PROJECT-with-DJANGO/blob/main/Pasted%20image%2020240609224021.png)<br/>
-Setul de date pentru segmentare este mult mai mic,continand 115 imagini pentru modelul de mobi:
+Setul de date pentru segmentare este mult mai mic,continand 115 imagini pentru modelul de mobi:<br/>
 ![Pasted image 20240609223452.png](https://github.com/Voc94/SI_CNN_PROJECT-with-DJANGO/blob/main/Pasted%20image%2020240609223452.png)<br/>
-iar 63 pentru modelul de hud:
+iar 63 pentru modelul de hud:<br/>
 ![Pasted image 20240609223511.png](https://github.com/Voc94/SI_CNN_PROJECT-with-DJANGO/blob/main/Pasted%20image%2020240609223511.png)<br/>
-amandoua imparite in img si img_masks
+amandoua imparite in img si img_masks<br/>
 ### 3. Related Work
 
 Proiectul nostru se bazează pe cercetări anterioare în domeniul rețelelor neuronale convoluționale și aplicării acestora în clasificarea imaginilor. Ne-am inspirat din lucrările lui Krizhevsky et al. (2012) și He et al. (2016) privind arhitecturile CNN și ResNet.
