@@ -24,11 +24,11 @@ youtube: (prea multe)
 am folosit acest pipe **suuuper** folositor:
 `yt-dlp -o - "YOUTUBE-URL" | ffmpeg -i pipe: -vf "fps=1/25" output%d.png`
 $$25 jocuri*1000 poze$$
-![Pasted image 20240609224021.png](https://github.com/Voc94/SI_CNN_PROJECT-with-DJANGO/blob/main/Pasted%20image%2020240609224021.png)< br / >
+![Pasted image 20240609224021.png](https://github.com/Voc94/SI_CNN_PROJECT-with-DJANGO/blob/main/Pasted%20image%2020240609224021.png)<br/>
 Setul de date pentru segmentare este mult mai mic,continand 115 imagini pentru modelul de mobi:
-![Pasted image 20240609223452.png](https://github.com/Voc94/SI_CNN_PROJECT-with-DJANGO/blob/main/Pasted%20image%2020240609223452.png)< br / >
+![Pasted image 20240609223452.png](https://github.com/Voc94/SI_CNN_PROJECT-with-DJANGO/blob/main/Pasted%20image%2020240609223452.png)<br/>
 iar 63 pentru modelul de hud:
-![Pasted image 20240609223511.png](https://github.com/Voc94/SI_CNN_PROJECT-with-DJANGO/blob/main/Pasted%20image%2020240609223511.png)< br / >
+![Pasted image 20240609223511.png](https://github.com/Voc94/SI_CNN_PROJECT-with-DJANGO/blob/main/Pasted%20image%2020240609223511.png)<br/>
 amandoua imparite in img si img_masks
 ### 3. Related Work
 
